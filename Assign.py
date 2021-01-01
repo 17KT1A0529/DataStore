@@ -27,7 +27,7 @@ if(len(path)>=32):
 else:
     dataStore=DataStore(path)
 dataStore.create()
-dataStore.read(filename)
+print(dataStore.read(filename))
 dataStore.delete(filename)
 
 
